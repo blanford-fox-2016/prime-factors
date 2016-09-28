@@ -28,17 +28,17 @@ let simple_recursive = (input) => {
 
   console.log("ini : " + cek);
 
-  if (cek.length > 1) {
+  if (cek.length === 1) {
+    return input;
+  } else {
     console.log("lewat if " + typeof (input) + " " + input);
     var hasil = 1;
     var array = String(input).split("")
     for (var i = 0; i < array.length; i++) {
       hasil *= Number(array[i]);
     }
-  } else {
-    return input;
   }
-  simple_recursive(hasil);
+  return simple_recursive(hasil);
 }
 
 console.log(simple_recursive(39));
