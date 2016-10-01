@@ -1,0 +1,23 @@
+{
+  "name": "prime-factors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "recursive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blanford-fox-2016/prime-factors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blanford-fox-2016/prime-factors/issues"
+  },
+  "homepage": "https://github.com/blanford-fox-2016/prime-factors#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0"
+  }
+}
